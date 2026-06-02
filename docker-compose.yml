@@ -1,0 +1,19 @@
+version: '3.8'
+
+services:
+
+  backend:
+    build: ./backend
+    container_name: project1-backend
+    ports:
+      - "5000:5000"
+    restart: unless-stopped
+
+  frontend:
+    build: ./frontend
+    container_name: project1-frontend
+    ports:
+      - "80:80"
+    restart: unless-stopped
+    depends_on:
+      - backend
