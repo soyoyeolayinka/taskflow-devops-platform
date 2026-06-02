@@ -12,7 +12,7 @@ def health():
 @app.route("/")
 def home():
     return jsonify({
-        "message": "DEPLOYMENT TEST SUCCESSFUL"
+        "message": "DEPLOYMENT Triggered SUCCESSFULLY"
     }), 200
 
 if __name__ == "__main__":
