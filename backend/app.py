@@ -12,7 +12,7 @@ def health():
 @app.route("/")
 def home():
     return jsonify({
-        "message": "Production CI/CD Backend API is running"
+        "message": "DEPLOYMENT TEST SUCCESSFUL"
     }), 200
 
 if __name__ == "__main__":
