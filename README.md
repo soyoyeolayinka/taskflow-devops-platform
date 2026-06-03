@@ -6,7 +6,6 @@ Project Overview
 This project demonstrates a production-style DevOps workflow for deploying a containerized fullstack application to AWS using GitHub Actions CI/CD pipelines.
 
 The application consists of:
-=======
 TaskFlow DevOps Platform
 
 Production-Ready Fullstack Application with CI/CD, Docker, Prometheus & Grafana
@@ -28,11 +27,9 @@ The platform consists of:
 - Docker Containers
 - Docker Compose
 - GitHub Actions CI/CD
-<<<<<<< HEAD
 - AWS EC2 Deployment
 
 The goal of this project was to implement a real-world software delivery pipeline that automatically validates code, enforces branch protection rules, and deploys changes to production infrastructure.
-=======
 - Prometheus Monitoring
 - Grafana Dashboards
 - Custom Application Metrics
@@ -55,7 +52,6 @@ Feature Branch
 Pull Request
     │
     ▼
-<<<<<<< HEAD
 GitHub Actions CI Pipeline
     │
     ├── Frontend Build Validation
@@ -63,7 +59,6 @@ GitHub Actions CI Pipeline
     │
     ▼
 Branch Protection Rules
-=======
 GitHub Actions CI
     │
     ├── Frontend Validation
@@ -75,7 +70,6 @@ GitHub Actions CI
 Merge to Main
     │
     ▼
-<<<<<<< HEAD
 GitHub Actions CD Pipeline
     │
     ▼
@@ -92,7 +86,7 @@ Docker Compose
     │
     ▼
 React Frontend + Flask Backend
-=======
+
 Docker Compose
     │
     ├── React Frontend
@@ -108,8 +102,6 @@ Observability Dashboard
 ---
 
 Technology Stack
-
-<<<<<<< HEAD
 Cloud
 
 - AWS EC2
@@ -325,7 +317,6 @@ https://linkedin.com/in/olayinkasoyoye
 
 Project Type:
 Production-Style DevOps Portfolio Project
-=======
 Frontend
 
 - React
