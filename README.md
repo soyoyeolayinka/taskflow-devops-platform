@@ -14,14 +14,10 @@ TaskFlow DevOps Platform is a production-style fullstack application built to de
 
 This project was designed as a portfolio-grade implementation of a real-world software delivery pipeline.
 
----
 
 Project Overview
 
 The platform consists of:
-
- (feat: add premium TaskFlow operations dashboard and update project documentation)
-
 - React Frontend
 - Flask Backend API
 - Docker Containers
@@ -37,9 +33,7 @@ The goal of this project was to implement a real-world software delivery pipelin
 - Pull Request Workflow
 
 The goal was to implement a production-ready DevOps workflow that validates code quality, enforces repository governance, automates testing, and provides observability into application performance.
-(feat: add premium TaskFlow operations dashboard and update project documentation)
 
----
 
 Architecture
 
@@ -64,7 +58,6 @@ GitHub Actions CI
     ├── Frontend Validation
     ├── Backend Validation
     └── Repository Checks
-(feat: add premium TaskFlow operations dashboard and update project documentation)
     │
     ▼
 Merge to Main
@@ -97,9 +90,7 @@ Docker Compose
     │
     ▼
 Observability Dashboard
- (feat: add premium TaskFlow operations dashboard and update project documentation)
-
----
+ 
 
 Technology Stack
 Cloud
@@ -134,8 +125,6 @@ Operating System
 
 - Ubuntu Linux
 
----
-
 Features Implemented
 
 Continuous Integration (CI)
@@ -148,7 +137,6 @@ Checks performed:
 - Backend build validation
 - Pull request verification
 
----
 
 Continuous Deployment (CD)
 
@@ -164,7 +152,6 @@ Deployment steps:
 6. New containers are launched
 7. Application becomes available immediately
 
----
 
 Security Implementations
 
@@ -178,7 +165,6 @@ Configured GitHub Branch Protection Rules:
 
 This ensures that all code changes pass validation before reaching production.
 
----
 
 Deployment Workflow
 
@@ -200,7 +186,7 @@ CD Pipeline Runs
 
 Application Deploys Automatically
 
----
+
 
 Project Structure
 
@@ -243,7 +229,7 @@ DevOps Skills Demonstrated
 - Production Troubleshooting
 - Infrastructure Management
 
----
+
 
 Validation
 
@@ -274,7 +260,7 @@ Shows:
 
 running successfully.
 
----
+
 
 Lessons Learned
 
@@ -290,7 +276,6 @@ During this project, the following production engineering concepts were practice
 - Cloud deployment troubleshooting
 - Git workflow best practices
 
----
 
 Future Improvements
 
@@ -303,7 +288,6 @@ Future Improvements
 - Kubernetes Deployment
 - Blue-Green Deployments
 
----
 
 Author
 
@@ -347,9 +331,8 @@ Version Control
 
 - Git
 - GitHub
-(feat: add premium TaskFlow operations dashboard and update project documentation)
 
----
+
 
 Features
 
@@ -374,7 +357,6 @@ DevOps Features
 - Application Monitoring
 - Custom Metrics Collection
 
----
 
 Custom Metrics
 
@@ -390,8 +372,6 @@ active_tasks_total
 app_requests_total
 
 These metrics are visualized in Grafana dashboards.
-
----
 
 Monitoring Stack
 
@@ -422,8 +402,6 @@ Node Exporter provides:
 - Memory Usage
 - Filesystem Metrics
 - System Health Data
-
----
 
 Repository Workflow
 
@@ -458,7 +436,6 @@ CI Validation
     ▼
 Merge to Main
 
----
 
 Running Locally
 
@@ -500,7 +477,6 @@ Health Endpoint
 
 http://localhost:5000/health
 
----
 
 CI/CD Pipeline
 
@@ -514,7 +490,6 @@ GitHub Actions performs:
 
 This ensures only validated code reaches the main branch.
 
----
 
 Key DevOps Skills Demonstrated
 
@@ -530,7 +505,7 @@ Key DevOps Skills Demonstrated
 - Application Health Monitoring
 - Production-Style Deployment Practices
 
----
+
 
 Future Enhancements
 
@@ -544,7 +519,6 @@ Future Enhancements
 - AWS Deployment
 - EKS Integration
 
----
 
 Learning Outcomes
 
@@ -558,8 +532,6 @@ Through this project the following DevOps concepts were implemented:
 - Repository Governance
 - Production-Ready Development Workflow
 
----
-
 Author
 
 Olayinka Soyoye
@@ -571,8 +543,6 @@ https://github.com/soyoyeolayinka
 
 LinkedIn:
 https://www.linkedin.com/in/olayinkasoyoye
-
----
 
 Project Status
 
